@@ -1,0 +1,367 @@
+body,
+html {
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 40;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* body {
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 40;
+}
+
+h1,
+h2 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3.5em;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+h1::after {
+    position: absolute;
+    width: 70px;
+    /*background-color: #ffffff;*/
+    height: 5px;
+    left: 0;
+    content: "";
+    bottom: 0;
+}
+
+h2 {
+    margin: 0;
+    color: #1f1e1e;
+    font-size: 2.875em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+h2::after {
+    position: absolute;
+    width: auto;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc527;
+    left: 0;
+    content: "";
+    bottom: 0;
+}
+
+h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4c4c4c;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3b3d42;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #ffc527;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+/**************/
+
+.navbar {
+    text-decoration: none;
+}
+
+.navbar-nav>li>a {
+    padding: 15px 20px;
+    line-height: 1;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.375em;
+}
+
+.navbar-toggle .icon-bar {
+    background: #000000;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #ffc527;
+    /*#ffcc00    #ffc527*/
+}
+
+
+
+.firsttext {
+    font-family: 'Slabo 27px', serif;
+    font-size: 4rem;
+    color: #2b2525;
+    display: block;
+}
+
+
+.firsttext,
+.maintext {
+    line-height: 1;
+}
+
+.maintext {
+    font-family: 'Slabo 27px', serif;
+    font-size: 5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+}
+
+.thirdtext {
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+    color: #000;
+    line-height: 0;
+    padding-left: 30PX;
+    display: block;
+    padding-bottom: 5rem;
+}
+
+
+.slider-image {
+    height: 20rem;
+    padding: 1rem;
+}
+
+
+
+/**************/
+
+
+.Journey {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(56 58 56 / 50%), rgb(136 129 129 / 80%), rgb(68 61 61 / 50%)), url("https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.journey-text {
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+}
+
+/******************/
+
+
+
+
+#about {
+    padding-top: 0;
+}
+
+.description {
+    color: #e0a70a;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 600;
+    display: block;
+    padding-top: 5rem;
+}
+
+#team,
+#team h2 {
+    text-align: center;
+    background-color: #d0e1e1;
+    padding-bottom: 3rem;
+    /*#6fa3f7**/
+}
+
+#team h2::after {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.card {
+    background-color: #ebf3f3;
+}
+
+.social-icons i {
+    color: rgb(42, 69, 95);
+    padding: 2rem;
+    cursor: pointer;
+}
+
+
+#contact,
+#contact h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #f2f2f2;
+    /*#6fa3f7**/
+}
+
+#contact h2::after {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.email {
+    padding: 0;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/**[input]**/
+
+.text-field-r {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 31px;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.text-field-l {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 10px;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2;
+}
+
+input.text-field-l {
+    height: 62px;
+    padding: 0 35px 0 35px;
+}
+
+
+textarea.text-field-l {
+    min-height: 169px;
+    padding: 19px 35px 0 35px;
+}
+
+/**[input]**/
+
+
+/**[ Button ]**/
+.submit-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.submit-click-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 150px;
+    height: 62px;
+    background-color: #486784;
+    border-radius: 31px;
+    font-family: "Open Sans",
+        "sans-serif";
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.submit-click-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.copyright {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(10 58 7), rgba(9, 26, 49, 0.85), rgba(14, 20, 27, 0.5)), url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80") center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    padding: 5rem 0;
+}
